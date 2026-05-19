@@ -1,0 +1,44 @@
+autotest - 2026-04-19 15:51:14,922 - test_login.py:[15] - [INFO] - 用例执行：test_login
+autotest - 2026-04-19 15:51:19,459 - test_login.py:[15] - [INFO] - 用例执行：test_login
+autotest - 2026-04-19 16:20:21,963 - test_login.py:[15] - [INFO] - 用例执行：test_login
+autotest - 2026-04-19 16:20:23,964 - test_login.py:[19] - [ERROR] - 'get_login_name'
+autotest - 2026-04-19 16:20:23,964 - test_login.py:[20] - [INFO] - 用例执行失败
+autotest - 2026-04-19 16:20:24,052 - test_login.py:[15] - [INFO] - 用例执行：test_login
+autotest - 2026-04-19 16:20:25,756 - test_login.py:[19] - [ERROR] - 'get_login_name'
+autotest - 2026-04-19 16:20:25,757 - test_login.py:[20] - [INFO] - 用例执行失败
+autotest - 2026-04-19 16:21:52,403 - test_login.py:[15] - [INFO] - 用例执行：test_login
+autotest - 2026-04-19 16:21:54,523 - test_login.py:[19] - [ERROR] - 'get_login_name'
+autotest - 2026-04-19 16:21:54,523 - test_login.py:[20] - [INFO] - 用例执行失败
+autotest - 2026-04-19 16:21:54,601 - test_login.py:[15] - [INFO] - 用例执行：test_login
+autotest - 2026-04-19 16:21:56,324 - test_login.py:[19] - [ERROR] - 'get_login_name'
+autotest - 2026-04-19 16:21:56,324 - test_login.py:[20] - [INFO] - 用例执行失败
+autotest - 2026-04-19 16:27:53,756 - test_login.py:[15] - [INFO] - 用例执行：test_login
+autotest - 2026-04-19 16:27:58,702 - test_login.py:[19] - [ERROR] - 'NoneType' object has no attribute 'text'
+autotest - 2026-04-19 16:27:58,702 - test_login.py:[20] - [INFO] - 用例执行失败
+autotest - 2026-04-19 16:27:58,788 - test_login.py:[15] - [INFO] - 用例执行：test_login
+autotest - 2026-04-19 16:28:03,322 - test_login.py:[19] - [ERROR] - 'NoneType' object has no attribute 'text'
+autotest - 2026-04-19 16:28:03,322 - test_login.py:[20] - [INFO] - 用例执行失败
+autotest - 2026-04-19 16:32:54,562 - test_login.py:[15] - [INFO] - 用例执行：test_login
+autotest - 2026-04-19 16:32:57,862 - test_login.py:[24] - [INFO] - 用例：test_login执行通过
+autotest - 2026-04-19 16:32:57,906 - test_login.py:[15] - [INFO] - 用例执行：test_login
+autotest - 2026-04-19 16:33:00,295 - test_login.py:[24] - [INFO] - 用例：test_login执行通过
+autotest - 2026-04-19 16:33:32,863 - test_login_out.py:[10] - [INFO] - 执行用例：test_login_out(使用正确账号密码登录)
+autotest - 2026-04-19 16:33:41,256 - test_login_out.py:[20] - [INFO] - 用例执行通过
+autotest - 2026-04-19 17:44:24,836 - test_login_out.py:[10] - [INFO] - 执行用例：test_login_out(使用正确账号密码登录)
+autotest - 2026-04-19 17:44:24,837 - test_login_out.py:[15] - [ERROR] - [Errno 2] No such file or directory: 'D:\\POM\\page_yaml\\home_page.yaml'
+autotest - 2026-04-19 17:44:24,837 - test_login_out.py:[16] - [INFO] - 执行用例：test_login_out(使用正确账号密码登录)失败
+autotest - 2026-04-19 17:45:38,013 - test_login_out.py:[10] - [INFO] - 执行用例：test_login_out(使用正确账号密码登录)
+autotest - 2026-04-19 17:45:38,622 - test_login_out.py:[15] - [ERROR] - type object 'LoginPage' has no attribute 'yaml_file'
+autotest - 2026-04-19 17:45:38,622 - test_login_out.py:[16] - [INFO] - 执行用例：test_login_out(使用正确账号密码登录)失败
+autotest - 2026-04-19 17:47:45,973 - test_login_out.py:[10] - [INFO] - 执行用例：test_login_out(使用正确账号密码登录)
+autotest - 2026-04-19 17:47:53,671 - test_login_out.py:[20] - [INFO] - 用例执行通过
+autotest - 2026-04-19 17:51:00,550 - test_login_out.py:[11] - [INFO] - 执行用例：test_login_out(使用正确账号密码登录)
+autotest - 2026-04-19 17:51:08,194 - test_login_out.py:[21] - [INFO] - 用例执行通过
+autotest - 2026-04-19 21:29:53,606 - test_search_good.py:[9] - [INFO] - 用例执行：test_search_good
+autotest - 2026-04-19 21:29:56,074 - test_search_good.py:[14] - [ERROR] - 'NoneType' object is not iterable
+autotest - 2026-04-19 21:29:56,074 - test_search_good.py:[15] - [INFO] - 用例执行失败：test_search_good
+autotest - 2026-04-19 21:36:16,361 - test_search_good.py:[9] - [INFO] - 用例执行：test_search_good
+autotest - 2026-04-19 21:36:22,210 - test_search_good.py:[18] - [ERROR] - assert '自动化' in ['huihui自动化测试专用', '陈丽冰自动化测试专用', '10期自动化测试开发班专用', '全栈软件测试自动化 Selenium和Appium (Python版)', '精通QTP:自动化技术领航 余杰 赵旭斌', '11期接口自动化专用商品01(勿动)', ...]
+autotest - 2026-04-19 21:36:22,211 - test_search_good.py:[19] - [INFO] - 用例执行失败：test_search_good
+autotest - 2026-04-19 21:40:10,573 - test_search_good.py:[9] - [INFO] - 用例执行：test_search_good
+autotest - 2026-04-19 21:40:16,549 - test_search_good.py:[23] - [INFO] - 用例执行成功：test_search_good

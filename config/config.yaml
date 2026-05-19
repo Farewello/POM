@@ -1,0 +1,17 @@
+# 基础配置信息
+base:
+  url: "https://deyunce:210511@mall.deyunce.com/pc"
+  timeout: 10
+  # 驱动的相对路径（相对于项目根目录）
+  driver_path: "./common/driver/chromedriver.exe"
+  mobile: '13311122233'
+  pwd: '123456zz'
+  good_name: '自动化'
+
+# 如果以后有数据库配置、测试账号等，都可以往这里面加
+db:
+  host: "127.0.0.1"
+  port: 3306
+
+
+

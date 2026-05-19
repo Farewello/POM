@@ -1,0 +1,52 @@
+goto_login_page:
+  - action: 'find_and_click'
+    locator: ['xpath', '//a[contains(text(), "登录")]']
+    index: ~
+    text: ~
+    sleep: ~
+get_login_name:
+  - action: 'find'
+    locator: ['xpath', '//a[@class="el-popover__reference"]']
+    index: ~
+    text: ~
+    sleep: ~
+move_to_login_name:
+  - action: 'move_to_element'
+    locator: ['xpath', '//a[@class="el-popover__reference"]']
+    index: ~
+    text: ~
+    sleep: 1
+login_out:
+  - action: 'find_and_click'
+    locator: ['xpath', '//div[contains(text(), "退出登录")]']
+    index: ~
+    text: ~
+    sleep: 1
+login_btn_is_displayed:
+  - action: 'find'
+    locator: ['xpath', '//a[contains(text(), "登录")]']
+    index: ~
+    text: ~
+    sleep: 1
+search_goods:
+  - action: 'find_and_send'
+    locator: ['xpath', '//input[@placeholder="请输入要搜索的商品名称"]']
+    index: ~
+    text:  $good_name
+    sleep: 1
+  - action: 'find_and_click'
+    locator: [ 'xpath', '//div[contains(text(), "搜索")]' ]
+    index: ~
+    text: ~
+    sleep: 1
+  - action: 'finds'
+    locator: [ 'css', 'div.name.line2' ]
+    index: ~
+    text: ~
+    sleep: 2
+goto_good_detail:
+  - action: 'find_and_click'
+    locator: [ 'css', 'div.name.line2' ]
+    index: $index
+    text:  ~
+    sleep: 3

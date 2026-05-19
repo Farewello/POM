@@ -1,0 +1,27 @@
+use_account_pwd_login:
+  - action: 'find_and_click'
+    locator: ['xpath', '//div[contains(text(), "账号密码登录")]']
+    index: ~
+    text: ~
+    sleep: 1
+  - action: 'find_and_send'
+    locator: [ 'xpath', '//input[@placeholder="请输入账号/手机号码"]']
+    index: ~
+    text: $mobile
+    sleep: ~
+  - action: 'find_and_send'
+    locator: ['xpath', '//input[@placeholder="请输入密码"]']
+    index: ~
+    text: $pwd
+    sleep: ~
+  - action: 'find_and_click'
+    locator: ['xpath', '//a[contains(text( ), "忘记密码")]//following::span[text()="立即登录"]']
+    index: ~
+    text: ~
+    sleep: ~
+get_login_name:
+  - action: 'find'
+    locator: ['xpath', '//a[@class="el-popover__reference"]']
+    index: ~
+    text: ~
+    sleep: 1

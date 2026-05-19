@@ -1,0 +1,79 @@
+autotest - 2026-04-18 17:46:48,914 - test_login.py:[14] - [INFO] - 用例执行：test_login
+autotest - 2026-04-18 17:47:11,327 - test_login.py:[14] - [INFO] - 用例执行：test_login
+autotest - 2026-04-18 17:49:29,849 - test_login.py:[14] - [INFO] - 用例执行：test_login
+autotest - 2026-04-18 17:49:41,564 - test_login.py:[14] - [INFO] - 用例执行：test_login
+autotest - 2026-04-18 17:49:51,645 - test_login.py:[18] - [ERROR] - Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff764340245+146d5]
+	chromedriver!GetHandleVerifier [0x7ff7643402b0+14740]
+	chromedriver!(No symbol) [0x7ff7640ad7cd]
+	chromedriver!(No symbol) [0x7ff764106c4e]
+	chromedriver!(No symbol) [0x7ff764106f5c]
+	chromedriver!(No symbol) [0x7ff764157cc7]
+	chromedriver!(No symbol) [0x7ff764154818]
+	chromedriver!(No symbol) [0x7ff7640f9018]
+	chromedriver!(No symbol) [0x7ff7640f9f03]
+	chromedriver!GetHandleVerifier [0x7ff7646558f9+329d89]
+	chromedriver!GetHandleVerifier [0x7ff76464fe46+3242d6]
+	chromedriver!GetHandleVerifier [0x7ff7646730b2+347542]
+	chromedriver!GetHandleVerifier [0x7ff76435d3d5+31865]
+	chromedriver!GetHandleVerifier [0x7ff76436600c+3a49c]
+	chromedriver!GetHandleVerifier [0x7ff764349634+1dac4]
+	chromedriver!GetHandleVerifier [0x7ff7643497e6+1dc76]
+	chromedriver!GetHandleVerifier [0x7ff76432e2f7+2787]
+	KERNEL32!BaseThreadInitThunk [0x7ff84bf2e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff84c72c48c+2c]
+
+autotest - 2026-04-18 17:49:51,659 - test_login.py:[19] - [INFO] - 用例执行失败
+autotest - 2026-04-18 17:51:40,222 - test_login.py:[14] - [INFO] - 用例执行：test_login
+autotest - 2026-04-18 17:51:46,097 - test_login.py:[14] - [INFO] - 用例执行：test_login
+autotest - 2026-04-18 17:51:59,936 - test_login.py:[18] - [ERROR] - Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff764340245+146d5]
+	chromedriver!GetHandleVerifier [0x7ff7643402b0+14740]
+	chromedriver!(No symbol) [0x7ff7640ad7cd]
+	chromedriver!(No symbol) [0x7ff764106c4e]
+	chromedriver!(No symbol) [0x7ff764106f5c]
+	chromedriver!(No symbol) [0x7ff764157cc7]
+	chromedriver!(No symbol) [0x7ff764154818]
+	chromedriver!(No symbol) [0x7ff7640f9018]
+	chromedriver!(No symbol) [0x7ff7640f9f03]
+	chromedriver!GetHandleVerifier [0x7ff7646558f9+329d89]
+	chromedriver!GetHandleVerifier [0x7ff76464fe46+3242d6]
+	chromedriver!GetHandleVerifier [0x7ff7646730b2+347542]
+	chromedriver!GetHandleVerifier [0x7ff76435d3d5+31865]
+	chromedriver!GetHandleVerifier [0x7ff76436600c+3a49c]
+	chromedriver!GetHandleVerifier [0x7ff764349634+1dac4]
+	chromedriver!GetHandleVerifier [0x7ff7643497e6+1dc76]
+	chromedriver!GetHandleVerifier [0x7ff76432e2f7+2787]
+	KERNEL32!BaseThreadInitThunk [0x7ff84bf2e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff84c72c48c+2c]
+
+autotest - 2026-04-18 17:51:59,940 - test_login.py:[19] - [INFO] - 用例执行失败
+autotest - 2026-04-18 17:54:19,783 - test_login.py:[14] - [INFO] - 用例执行：test_login
+autotest - 2026-04-18 17:54:24,951 - test_login.py:[14] - [INFO] - 用例执行：test_login
+autotest - 2026-04-18 17:54:38,808 - test_login.py:[18] - [ERROR] - Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff764340245+146d5]
+	chromedriver!GetHandleVerifier [0x7ff7643402b0+14740]
+	chromedriver!(No symbol) [0x7ff7640ad7cd]
+	chromedriver!(No symbol) [0x7ff764106c4e]
+	chromedriver!(No symbol) [0x7ff764106f5c]
+	chromedriver!(No symbol) [0x7ff764157cc7]
+	chromedriver!(No symbol) [0x7ff764154818]
+	chromedriver!(No symbol) [0x7ff7640f9018]
+	chromedriver!(No symbol) [0x7ff7640f9f03]
+	chromedriver!GetHandleVerifier [0x7ff7646558f9+329d89]
+	chromedriver!GetHandleVerifier [0x7ff76464fe46+3242d6]
+	chromedriver!GetHandleVerifier [0x7ff7646730b2+347542]
+	chromedriver!GetHandleVerifier [0x7ff76435d3d5+31865]
+	chromedriver!GetHandleVerifier [0x7ff76436600c+3a49c]
+	chromedriver!GetHandleVerifier [0x7ff764349634+1dac4]
+	chromedriver!GetHandleVerifier [0x7ff7643497e6+1dc76]
+	chromedriver!GetHandleVerifier [0x7ff76432e2f7+2787]
+	KERNEL32!BaseThreadInitThunk [0x7ff84bf2e8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff84c72c48c+2c]
+
+autotest - 2026-04-18 17:54:38,812 - test_login.py:[19] - [INFO] - 用例执行失败
+autotest - 2026-04-18 17:58:22,834 - test_login.py:[14] - [INFO] - 用例执行：test_login
+autotest - 2026-04-18 17:58:28,595 - test_login.py:[14] - [INFO] - 用例执行：test_login
